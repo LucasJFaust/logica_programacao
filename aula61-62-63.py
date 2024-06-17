@@ -42,7 +42,7 @@ cpf_enviado_usuario = re.sub(r'[^0-9]', '', entrada)  # Aqui estamos usando um m
 entrada_sequqencial = entrada == entrada[0] * len(entrada)
 
 if entrada_sequqencial:
-    print('Você enviou dados sequenciais')
+    print('Você enviou dados sequênciais')
     sys.exit()
 
 # 1. Primeiro precismos pegar os 9 primeiros dígitos do cpf:
